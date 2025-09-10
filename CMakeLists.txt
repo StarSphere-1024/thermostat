@@ -26,6 +26,7 @@ target_include_directories(app PRIVATE
 
 target_sources(app PRIVATE
     src/app_task.cpp
+    src/default_zap/zap-generated/callback-stub.cpp
     src/main.cpp
     src/temp_sensor_manager.cpp
     src/temperature_manager.cpp
